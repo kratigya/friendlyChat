@@ -444,7 +444,7 @@ public class MainActivity extends AppCompatActivity
                 return super.onOptionsItemSelected(item);
         }
     }
-    
+
     private void causeCrash() {
         throw new NullPointerException("Fake null pointer exception");
     }
